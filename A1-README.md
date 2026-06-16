@@ -7,7 +7,7 @@ Docs a Code paste করলে background black remove করার জন্য
 Click : Format 
 Last option : Clear Format
 
-##Neomorphism style setup
+## Neomorphism style setup
 
 settings.gradle (Project Settings)::
 mavenCentral()
@@ -37,7 +37,7 @@ implementation("com.github.fornewid:neumorphism:0.3.2")
 jcenter() 
 maven { url = uri(  "https://jitpack.io" )}
 
-##Page Connection:##
+## Page Connection:##
 
 Button Class6;
 Class6=findViewById(R.id.class6);
@@ -67,7 +67,7 @@ startbutton.setOnClickListener(new View.OnClickListener() {
 নতুন নাম ডট setOnClickListener( এবার new টাইফ করে blank দিলে recomendation আসবে। View.OnClickListener এ  চাপ দিবো ।
 Intent লিখবো তারপর নতুন নাম =N লিখলে recomendation আসবে ।new Intent()চাপ দিবো । click button যে activity তে আছে তার নাম ডট this কমা, নতুন activity page name ডট class । এরপর; সেমিকোলন দিয়ে নিচের লাইনে startActivity(নতুন নাম)সেমিকোলন
 
-##findViewById  এর shortcut ব্যবহার##
+## findViewById  এর shortcut ব্যবহার##
 @Override এর উপরে variable ধরে  onCreate(Bundle এর ভিতরে variable=findViewById(R.id.xmlidname);  Example :: 
 Button variable;
   @Override
@@ -78,7 +78,7 @@ Button variable;
 
         variable=findViewById(R.id.xmlidname);
 
-##Shortcut ::## 
+## Shortcut ::## 
 @Override
 protected void onCreate(Bundle savedInstanceState) {
    super.onCreate(savedInstanceState);
@@ -89,7 +89,7 @@ protected void onCreate(Bundle savedInstanceState) {
 পার্থক্য দেখো :: আগে কিন্তু override এর উপর variable একবার setup করতে হতো তারপর নিচে এসে findviewbyid নিয়ে কাজ করতে হতো । এখন shortcut এ দেখো এ কাজটা এক লাইনে করতে চাইলে override এর নিচে onCreate(Bundle এর নিচে setContentView এর নিচে 
 Button variable=findViewById(R.id.xmlidname); এইটা একসঙ্গে লিখতে হবে ।
 
-##Tazbi Button এর backend এ কাজ :## 
+## Tazbi Button এর backend এ কাজ :## 
 TextView tvcountid; 
 int count;// count নামে variable ধরলাম
 Onclick এর ভিতরে 
@@ -97,18 +97,18 @@ count++;//
 tvcountid.setText(""+count);
 
 
-##Toast:##
+## Toast:##
 Toast.makeText(MainActivity.this,"Wright here",Toast.LENGTH_SHORT ).show();
  
 
-##Open New Activity##
+## Open New Activity##
 
 
 Java >> MainActivity>>Mouse Right click>>New>>Activity>>Empty View Activity>>Activity name দিবো
 
 
 
-##Web View:##
+## Web View:##
 Xml file a Linear Layout নিয়ে ।<Web view সবগুলো match parent & id নিবো  />
 Activity Java তে যাবো 
 
@@ -215,7 +215,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-##Image Collect from Online for light apk:##
+## Image Collect from Online for light apk:##
 
 build.gradle.kts(Module :app)
 implementation ("com.squareup.picasso:picasso:2.8")
@@ -240,7 +240,7 @@ Picasso.get()
 .resize(width,height) এর ব্যবহার : Online এর image অনেক ছোট/বড় থাকে তখন সেটাকে resize করতে ব্যবহৃত হয় ।
 .error(R.drawable.imagename) অনেক সময় user internet না থাকলে অথবা যেকোনো error হলে কোন image show করবে।
 
-##Lottie File Setup:##
+## Lottie File Setup:##
 https://lottiefiles.com/blog/working-with-lottie-animations/getting-started-with-lottie-animations-in-android-app
 
 1.implementation ("com.airbnb.android:lottie:6.5.1")
@@ -277,7 +277,7 @@ False দিলে একবার হয়ে থেমে যাবে ।
 Add Type: Banner Ad Mobile apps,Interstitial/Full screen Add Mobile apps,Rewarded Video Add Mobile apps,Native Add Mobile apps, App Selling ,পারচেস Option,Remove logo,Subscription,2 App same concept 1 free add,1 premier  
 
 
-##Addmob add implement:##
+## Addmob add implement:##
 
 https://developers.google.com/admob
 https://developers.google.com/admob/android/quick-start
@@ -313,7 +313,7 @@ Step 4: Main activity set content view এর পরে
 //MobileAds এ import class option আসবে না যতক্ষন পর্যন্ত কোনো একটা app code পরিপূর্ন না বসাবে ।
 Alt+Enter চেপে import class এ click দিবো।
 
-##Banner Ad##
+## Banner Ad##
 
 Step 1:
 Java এর MainActivity তে শেষের } - সেকেন্ড ব্রেকেটের আগে লিখবো অথবা
@@ -440,7 +440,7 @@ https://learnwithdebasish.blogspot.com/2024/06/admob-ad-implementation-2024-in-j
 
 Finally: https://www.youtube.com/watch?v=5OKibZ5GN3k
 
-##Interstitial Ad##
+## Interstitial Ad##
 https://youtu.be/yO9yRdOGztk?si=ZcG522ZwFfZ--iyp
 Step 1:
 Main Activity সবার উপরে 
@@ -553,7 +553,7 @@ https://support.google.com/admob/answer/2936217?hl=en
 
 App upload দেওয়ার আগে ভিডিওটা দেখবে । 
 
-##Identity change :## 
+## Identity change :## 
 
 App logo change
 
@@ -577,13 +577,13 @@ Select Project file option
 
 Same ভাবে App name ও করা যাবে ।
 
-##App Name & Logo Change :## 
+## App Name & Logo Change :## 
 Name:: Go res folder: Values folder : String.xml folder : app name change
 Logo:: Right Click app : New : Image asset :Foreground layout: path
 
 
 
-##Open Developer Account:## 
+## Open Developer Account:## 
 সারাজীবনে Google 1 টা Developer account access দেয়। ভুলেও দুইটা খোলা যাবে না। যদি কোনো কারনে account ban হয়। তাহলে আপনার pc,mobile, mobile number,Router, A-Z change করে নতুন account open করতে হবে। বিষয়টা কতটা ভয়ঙ্কর। 
 
 How to create google developer account : https://support.google.com/googleplay/android-developer/answer/6112435?hl=en
@@ -593,7 +593,7 @@ International dual currency card বানাও। একটা কার্ড
 Islami bank dual currency debit card.
 City bank account open করে পরে সেটাকে dual card এ তৈরি করা।
 
-##App Bundle Create :##
+## App Bundle Create :##
 
 Go Build :: Generate Signed App Bundle :: APK  ( Clinte  এর জন‍্য Apk )
 jks file হচ্ছে security file.
@@ -615,7 +615,7 @@ https://play.google/developer-content-policy/
 
 
 
-##App Publish Basic setup :##
+## App Publish Basic setup :##
 
 All apps থেকে Create app এ যাবো।App name : Language : App:Free:✅ : Create app
 
