@@ -7,7 +7,7 @@ Docs a Code paste করলে background black remove করার জন্য
 Click : Format 
 Last option : Clear Format
 
-##Neomorphism style setup##
+##Neomorphism style setup
 
 settings.gradle (Project Settings)::
 mavenCentral()
